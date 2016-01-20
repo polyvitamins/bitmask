@@ -1,0 +1,24 @@
+{
+  "name": "bitmask",
+  "version": "1.0.0",
+  "description": "Allow to mark any function with bitmask tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/polyvitamins/bittag.git"
+  },
+  "keywords": [
+    "bitmask",
+    "function",
+    "tag"
+  ],
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyvitamins/bittag/issues"
+  },
+  "homepage": "https://github.com/polyvitamins/bittag#readme"
+}
