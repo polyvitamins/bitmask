@@ -4,7 +4,7 @@
   "description": "Allow to mark any function with bitmask tag",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/polyvitamins/bittag/issues"
   },
-  "homepage": "https://github.com/polyvitamins/bittag#readme"
+  "homepage": "https://github.com/polyvitamins/bittag#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  }
 }
