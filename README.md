@@ -105,38 +105,49 @@ resolver.bit.test(MYPROMISE_SYNC);
 
 ### All methods
 
-#### set([number | array, [number, [...]]])
+__set([number | array, [number, [...]]])__
+
 Override bitmask
 
-#### test([number | array, [number, [...]]])
-#### have([number | array, [number, [...]]])
-Check for presence of bitmask
+__test([number | array, [number, [...]]])__
+
+*Aliases: have*
+
+Check for presence of bitmask:
 ```js
 bit(GRPUP_MASK).test(ALLOW_WRITE, ALLOW_READ); // true or false
 ```
 
-#### without([number | array, [number, [...]]])
+__without([number | array, [number, [...]]])__
+
 Same the have, but invert result
 
-#### inc([number | array, [number, [...]]])
-#### add([number | array, [number, [...]]])
+__inc([number | array, [number, [...]]])__
+
+*Alieases: add*
+
 Append bitmask to existing bitmask
 
-#### exc([number | array, [number, [...]]])
-#### exclude([number | array, [number, [...]]])
-#### remove([number | array, [number, [...]]])
+__exclude([number | array, [number, [...]]])__
+
+*Aliases: exc, remove*
+
 Exclude bitmask from existing bitmask
 
-#### is([number | array, [number, [...]]])
+__is([number | array, [number, [...]]])__
+
 Test strict equality
 
-#### not([number | array, [number, [...]]])
+__not([number | array, [number, [...]]])__
+
 Strict inequality
 
-#### inverse()
+__inverse()__
+
 Inverse bitmask (return still object, not new value)
 
-#### reset()
+__reset()__
+
 Brings it to zero
 
 ## License
