@@ -1,5 +1,7 @@
-bit
+bitmask
 --
+
+Tool for manipulating bitmasks
 
 ## USAGE
 
